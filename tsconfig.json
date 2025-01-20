@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "rootDir": "./",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "$/*": ["src/*"]
+    },
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "strictPropertyInitialization": false
+  },
+  "include": ["src", "test", "."],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "esm": true
+  },
+  "tsc-alias": {
+    "verbose": false,
+    "debug": false,
+    "declarationDir": "dist",
+    "fileExtensions": {
+      "inputGlob": "*",
+      "outputCheck": ["js", "json", "mjs"]
+    }
+  }
+}
