@@ -10,7 +10,7 @@ Production-ready Express.js API boilerplate using TypeScript, ESM modules, ESLin
 - **ESLint** + **Prettier** - code formatter
 - **Hot Reload** - development server with hot reloading
 
-Need to add ORM or Query builder. I prefer drizzle ORM since it's easy for migration, type-safety, and not too much high-level invisible behaviours compared to Sequelize.
+Need to add ORM or Query builder. I prefer Drizzle ORM for type-safe database operations and easy migrations
 
 ## 🐱 Prerequisites
 
