@@ -40,16 +40,14 @@ npm run dev
 
 ## 🐱 Scripts
 
-```
-`npm run dev` # start development model
-`npm run build` # build for production
-`npm start` # run in production mode
-`npm run lint` # code style 🎨
-```
+- `npm run dev` # start development model
+- `npm run build` # build for production
+- `npm start` # run in production mode
+- `npm run lint` # code style 🎨
 
 ## 🐱 Project Structures
 
-````
+```
 src/
 ├── config/ # Constants, db connections etc.,
 ├── routes/ # API routes
@@ -58,7 +56,7 @@ src/
 └── index.ts # Application entry point
 └── logger.ts # Winston logger
 ```
-s
+
 ## 🐱 Initital Endpoint
 
 `GET /core/public/ready` - server aliveness endpoint
@@ -70,10 +68,6 @@ s
 Create a .env file in the root directory:
 
 ```
-
 PORT=4000
 NODE_ENV=development
-
 ```
-
-````
