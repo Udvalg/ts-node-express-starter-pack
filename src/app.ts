@@ -31,6 +31,7 @@ const publicRouter = publicApi(express.Router());
 publicRouter.use(generalMiddlewares);
 
 app.set('trust proxy', true);
+app.use(publicRouter);
 
 app.use(generalMiddlewares);
 app.use(APP_PREFIX, publicRouter);
